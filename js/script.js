@@ -17,11 +17,33 @@ searchBtn.addEventListener("click" , () =>{
 modeSwitch.addEventListener("click" , () =>{
     body.classList.toggle("dark");
     
+    const isDarkMode = document.body.classList.contains('dark');
+    if (isDarkMode) {
+        console.log("tr");
+        localStorage.setItem('darkMode', isDarkMode);
+    }else{
+        localStorage.removeItem('darkMode', isDarkMode);
+        console.log("fals");
+    }
+    
+    
     if(body.classList.contains("dark")){
         modeText.innerText = "Light mode";
     }else{
         modeText.innerText = "Dark mode";
         
+    }
+
+});
+
+window.addEventListener('DOMContentLoaded', function() {
+    if (!localStorage.getItem('darkMode')) {
+        document.body.classList.remove('dark');
+        console.log("sdfhk");
+    }
+
+    if (window.innerWidth <= 578) {
+        sidebar.classList.add('close');
     }
 });
 
@@ -120,3 +142,8 @@ var closeModal = document.querySelector('.close-down-modal');
 closeModal.addEventListener('click',()=>{
     popup.style.display = 'none';
 });
+
+
+
+
+
