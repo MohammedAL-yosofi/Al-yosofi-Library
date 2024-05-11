@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!----======== CSS ======== -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!----===== Boxicons CSS ===== -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <title>Dashboard Sidebar Menu</title>
+</head>
+
+<body class="dark">
+  <nav class="sidebar">
+    <header>
+      <div class="image-text">
+        <span class="image">
+          <img src="icons8-books-color-96.png" alt="">
+        </span>
+
+        <div class="text logo-text">
+          <div class="content-title">
+            <h2>Al-Yosofi</h2>
+            <h2>Al-Yosofi</h2>
+            <span class="profession">Library</span>
+          </div>
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+      <div class="menu">
+
+        <li class="search-box">
+          <i class='bx bx-search icon'></i>
+          <input type="text" placeholder="Search...">
+        </li>
+
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="#dashboard" class="hovered">
+              <i class='bx bx-home-alt icon'></i>
+              <span class="text nav-text">Dashboard</span>
+            </a>
+          </li>
+          
+          <li class="nav-link">
+            <a href="#our-team">
+              <i class='bx bx-heart icon'></i>
+              <span class="text nav-text">Our Team</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-user icon'></i>
+              <span class="text nav-text">Users</span>
+            </a>
+          </li>
+
+
+          <li class="nav-links">
+
+            <div class="select-menu">
+             
+
+                <div class="select-btn">
+                  
+
+                    <i class='bx bxs-book icon' ></i>
+                    <span class="sBtn-text text nav-text">Books</span>
+                    <i class="bx bx-chevron-down  icon"></i>
+
+                 
+                </div>
+
+              
+
+              <ul class="options">
+                <a href="#programming">
+                <li class="option">
+                    <i class=" bx bxs-book-alt" style="color:#171515;"></i>
+                    <span class="option-text">Programming</span>
+                  </li>
+                </a>
+
+                <a href="#islamic">
+                  <li class="option">
+                    <i class="bx bxs-book-alt" style="color: #E1306C;"></i>
+                    <span class="option-text">اسلامية</span>
+                  </li>
+                </a>
+                <a href="#calture">
+                  <li class="option">
+                    <i class=" bx bxs-book-alt" style="color: #0E76A8;"></i>
+                    <span class="option-text">ثقافية</span>
+                  </li>
+                </a>
+
+              </ul>
+            </div>
+
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <li class="">
+          <a href="#">
+            <i class='bx bx-log-out icon'></i>
+            <span class="text nav-text">Logout</span>
+          </a>
+        </li>
+
+        <li class="mode">
+          <div class="sun-moon">
+            <i class='bx bx-moon icon moon'></i>
+            <i class='bx bx-sun icon sun'></i>
+          </div>
+          <span class="mode-text text">Dark mode</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+
+      </div>
+    </div>
+
+  </nav>
+
+  <section class="home">
+
+    <!-- =========top navbar =========-->
+    <div class="nav-bar">
+      <ul class="menu-links">
+        <li class="search-box">
+          <i class='bx bx-search icon'></i>
+          <input type="text" placeholder="Search..for book">
+        </li>
+
+      </ul>
+
+      <ul>
+        <li class="nav-link">
+          <a href="#">
+            <i class='bx bxs-cart-alt icon'></i>
+            <span class="text nav-text"></span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class='bx bxs-bell icon'></i>
+            <span class="text nav-text"></span>
+          </a>
+        </li>
+
+
+        <li class="nav-link">
+          <a href="#">
+            <i class='bx bxs-bar-chart-alt-2 icon'></i>
+            <span class="text nav-text"></span>
+          </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+    <header  id="dashboard"> 
+
+      <div class="left-header">
+        <marquee direction="left" scrollamount="10" class="marq">
+          <img src="img/physic.jpg" height="300" width="200" align="left"></img>
+          <img src="img/c++ games.jpg" class="img-thumbnail" height="300" width="200" align="center">
+          </img>
+          <img style="border-radius: 20%" src="img/alshaba.jpg" class="img-thumbnail" height="300" width="200"
+            align="center"></img>
+          <img style="border-radius: 20%" src="img/arios.jpg" class="img-thumbnail" height="300" width="200"
+            align="center" border-radius="20%"></img>
+          <img class="img-siz" src="img/400 سؤال .jpg" height="300" width="200" align="center">
+          <img class="img-siz" src="img/DB.jpg" height="300" width="200" align="center">
+        </marquee>
+
+      </div>
+
+
+      <div class="right-header">
+        <div class="latest-books">
+          <h5 class="text">Latest books</h5>
+    
+          <ul class="books">
+            <li>
+              <div class="content">
+                <img src="img/mysql.jpg" alt="">
+              </div>
+              <div class="book-description">
+                <p class="text">Java notes for proffessional </p>
+                <span class="text">Published by  <i class="bx bxs-user"></i> 'Ali'  <sup class="" style="color: #E1306C;">Date (24/4/15 ) </sup> <sub style="color: rgb(83, 136, 251); margin-left: 7px;">Islamic</sub></span>
+              </div>
+          </li class="books">
+            <li>
+              <div class="content">
+                <img src="img/c++ notes.jpg" alt="">
+              </div>
+              <div class="book-description">
+                <p class="text">Java notes for  </p>
+                <span class="text">Published by  <i class="bx bxs-user"></i> 'Ali'  <sup class="" style="color: #E1306C;">Date (24/4/15 ) </sup></sup> <sub style="color: rgb(83, 136, 251); margin-left: 7px;">Calture</sub></span>
+              </div>
+          </li class="books">
+            <li>
+              <div class="content">
+                <img src="img/DB.jpg" alt="">
+              </div>
+              <div class="book-description">
+                <p class="text">Java notes for proffessional </p>
+                <span class="text">Published by  <i class="bx bxs-user"></i> 'Ali'  <sup class="" style="color: #E1306C;">Date (24/4/15 ) </sup></sup> <sub style="color: rgb(83, 136, 251); margin-left: 7px;">Islamic</sub></span>
+              </div>
+          </li class="books">
+            <li>
+              <div class="content">
+                <img src="img/الدعوة الاسلامية.jpg" alt="">
+              </div>
+              <div class="book-description">
+                <p class="text">كتاب يوضح مفهوم الدعوة الاسلامية</p>
+                <span class="text">Published by  <i class="bx bxs-user"></i> 'Ali'  <sup class="" style="color: #E1306C;">Date (24/4/15 ) </sup></sup> <sub style="color: rgb(83, 136, 251); margin-left: 7px;">programming</sub></span>
+              </div>
+          </li class="books">
+            <li>
+              <div class="content">
+                <img src="img/السيرة النبوية.jpg" alt="">
+              </div>
+              <div class="book-description">
+                <p class="text">Java notes for proffessional </p>
+                <span class="text">Published by  <i class="bx bxs-user"></i> 'Ali'  <sup class="" style="color: #E1306C;">Date (24/4/15 ) </sup></sup> <sub style="color: rgb(83, 136, 251); margin-left: 7px;">Calture</sub></span>
+              </div>
+          </li class="books">
+            <li>
+              <div class="content">
+                <img src="img/alshaba.jpg" alt="">
+              </div>
+              <div class="book-description">
+                <p class="text">Java notes for proffessional </p>
+                <span class="text">Published by  <i class="bx bxs-user"></i> 'Ali'  <sup class="" style="color: #E1306C;">Date (24/4/15 ) </sup></sup> <sub style="color: rgb(83, 136, 251); margin-left: 7px;">Islamic</sub></span>
+              </div>
+          </li class="books">
+            <li>
+              <div class="content">
+                <img src="img/mysql.jpg" alt="">
+              </div>
+              <div class="book-description">
+                <p class="text">Java notes for proffessional </p>
+                <span class="text">Published by  <i class="bx bxs-user"></i> 'Ali'  <sup class="" style="color: #E1306C;">Date (24/4/15 ) </sup></sup> <sub style="color: rgb(83, 136, 251); margin-left: 7px;">Islamic</sub></span>
+              </div>
+          </li class="books">
+           
+          </ul>
+        </div>
+      </div>
+
+
+    </header>
+
+    <hr>
+
+    <article>
+      <h1 class="text mode-text" id="programming">programming books</h1>
+      <div class="div-article">
+
+        <div class="show">
+          <div class="scroll">
+
+            <div class="frame-div">
+
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/css.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star" ></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star" ></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+
+            </div>
+
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/java xml.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3 ">
+                        <label for="rate-3" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/c++ games.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/python (2).jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">Python notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/sql.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">SQL notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/php.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/oracl sql.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+
+      <hr>
+       <!-- كتب اسلامية  -->
+      <h1 class="text mode-text" id="islamic"> كتب اسلامية </h1>
+      <div class="div-article">
+
+        <div class="show">
+          <div class="scroll">
+
+            <div class="frame-div">
+
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/السيرة النبوية.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+
+            </div>
+
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/احاديث لاتصح.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/فظل الوالدين.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">فظل الوالدين</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star" style="color: var(--primary-text);"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/السيرة1.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">السيرة النبوية ل صالح احمد الشامي</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/لانك الله.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/مدرسة  محمد  صلى الله علي.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/oracl sql.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+
+      <hr>
+      <!-- كتب ثقافية -->
+      <h1 class="text mode-text" id="calture"> كتب ثقافية </h1>
+      <div class="div-article">
+
+        <div class="show">
+          <div class="scroll">
+
+            <div class="frame-div">
+
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/arios.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+
+            </div>
+
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/حرب الفندال.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/one handred.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/hetler.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/sql.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/php.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="frame-div">
+              <div class="div-im">
+                <figure>
+
+                  <img class="img-siz" src="img/oracl sql.jpg" alt="images">
+
+                  <figcaption>
+                    <div class="text">css notes for proffessional</div>
+                    <div class="container">
+
+                      <div class="star-widget">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="bx bxs-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="bx bxs-star"></label>
+
+                        <div class="manage-book">
+                          <i class="bx bxs-cart-alt"></i>
+                          <i class='bx bxs-microphone-alt'></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+    <!-- footer page  our team page-->
+    
+    <div class="team-container">
+
+
+      <div class="section-title">
+        <h1 class="text">Our Team </h1>
+    </div>
+  
+      <div class="row">
+  
+  
+        <div class="column">
+            <div class="team" id="our-team">
+                <div class="team-img">
+                    <img src="img/team-1.jpg" alt="Team Image">
+                </div>
+                <div class="team-content">
+                    <h2 style="text-wrap: nowrap;">Al-Yosofi</h2>
+                    <h3>CEO & Founder</h3>
+                    <p>Some text goes here that describes about team members</p>
+                    <h4>mohammed.f.alyosofi@gmail.com</h4>
+                </div>
+                <div class="team-social">
+                    <a href="#" class="social-tw"> <i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="social-fb"> <i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="social-li"> <i class="bx bxl-linkedin"></i></a>
+                    <a href="#" class="social-in"> <i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="social-yt"> <i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+  
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <img src="img/team-2.jpg" alt="Team Image">
+                </div>
+                <div class="team-content">
+                    <h2>al-yosofi</h2>
+                    <h3>Art Director</h3>
+                    <p>Some text goes here that describes about team members</p>
+                    <h4>mohammed.f.alyosofi@gmail.com</h4>
+                </div>
+                <div class="team-social">
+                    <a href="#" class="social-tw"> <i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="social-fb"> <i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="social-li"> <i class="bx bxl-linkedin"></i></a>
+                    <a href="#" class="social-in"> <i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="social-yt"> <i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+  
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <img src="img/team-3.jpg" alt="Team Image">
+                </div>
+                <div class="team-content">
+                    <h2>Mohammed Fuad</h2>
+                    <h3>Developer</h3>
+                    <p>Some text goes here that describes about team members</p>
+                    <h4>mohammed.f.alyosofi@gmail.com</h4>
+                </div>
+                <div class="team-social">
+                    <a href="#" class="social-tw"> <i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="social-fb"> <i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="social-li"> <i class="bx bxl-linkedin"></i></a>
+                    <a href="#" class="social-in"> <i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="social-yt"> <i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+  
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <img src="img/team-3.jpg" alt="Team Image">
+                </div>
+                <div class="team-content">
+                    <h2>Mohammed</h2>
+                    <h3>Designer</h3>
+                    <p>Some text goes here that describes about team members</p>
+                    <h4>mohammed.f.alyosofi@gmail.com</h4>
+                </div>
+                <div class="team-social">
+                    <a href="#" class="social-tw"> <i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="social-fb"> <i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="social-li"> <i class="bx bxl-linkedin"></i></a>
+                    <a href="#" class="social-in"> <i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="social-yt"> <i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    </div>
+
+
+
+    <!-- popup modal download book -->
+    <div id="popup">
+      <div id="popup-content">
+        <a href="#" class="close-down-modal"> <i class='bx bx-x'></i></a>
+        <img id="popup-image" src="" alt="Book Image">
+        <h2 id="popup-title"></h2>
+        <p id="popup-info"></p>
+        <a id="popup-download" href="" download>
+          
+             <button  class="down_but" id="popup-but">download</button>
+          
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="js/script.js">
+
+  </script>
+
+</body>
+
+</html>
